@@ -14,13 +14,18 @@ Dark green: #28b485
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
     color: #777;
-    padding: 30px;
+    padding: 3rem;
 }
 
 
@@ -36,12 +41,12 @@ body {
 
 .logo-box {
     position: absolute;
-    top: 40px;
-    left:40px;
+    top: 4rem;
+    left:4rem;
 }
 
 .logo {
-    height: 35px;
+    height: 3.5rem;
 }
 
 .text-box {
@@ -58,14 +63,14 @@ body {
     
     /* fixes small shake at end of animation */
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 }
 
 .heading-primary-main {
     display: block;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 35px;
+    letter-spacing: 3.5rem;
     animation: moveInLeft 1s ease-out;
    
     /* animation property examples */
@@ -77,9 +82,9 @@ body {
 
 .heading-primary-sub {
     display: block;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 17px;
+    letter-spacing: 1.7rem;
     animation: moveInRight 1s ease-out;
 }
 
