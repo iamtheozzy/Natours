@@ -216,6 +216,13 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.card {
+  background-color: orangered;
+  height: 50rem;
+  transition: all .8s; }
+  .card:hover {
+    transform: rotateY(180deg); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -275,3 +282,8 @@ body {
   margin-top: -10rem; }
   .section-features > * {
     transform: skewY(7deg); }
+
+.section-tours {
+  background-color: #f7f7f7;
+  padding: 25rem 0 50rem 0;
+  margin-top: -10rem; }
